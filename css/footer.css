@@ -1,0 +1,98 @@
+/*  */
+@media only screen and (min-width: 640px) {
+    .footer {
+        width: 100%;
+        height: 390px;
+        background-color: #00142f;
+        min-width: 1200px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .footer .footer-top {
+        height: 270px;
+        width: 1200px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .footer .footer-down {
+        width: 1200px;
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .footer .footer-down .footer-down-item {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: rgb(170, 170, 170);
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .footer .footer-qrcode-img {
+        margin-left: 18px;
+        margin-top: 30px;
+    }
+
+    .footer-top .footer-qrcode,
+    .footer-top .footer-product,
+    .footer-top .footer-solution,
+    .footer-top .footer-compony,
+    .footer-top .footer-contact {
+        width: 20%;
+        text-align: left;
+    }
+
+    .footer .footer-top .footer-qrcode .footer-qrcode-msg {
+        font-size: 10px;
+        margin-left: 23px;
+        margin-top: 10px;
+        color: rgb(170, 170, 170)
+    }
+
+    .footer-product .footer-product-title,
+    .footer-solution .footer-solution-title,
+    .footer-compony .footer-compony-title,
+    .footer-contact .footer-contact-title {
+        color: rgb(255, 255, 255);
+        height: 35px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-product .footer-product-detail,
+    .footer-solution .footer-solution-detail,
+    .footer-compony .footer-compony-detail,
+    .footer-contact .footer-contact-detail {
+        color: rgb(170, 170, 170);
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+
+    .footer-product .footer-product-detail {
+        text-align: left;
+    }
+
+    .footer .line {
+        width: 100%;
+        height: 1px;
+        background-color: rgb(170, 170, 170);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img{
+        width: 100%;
+    }
+}

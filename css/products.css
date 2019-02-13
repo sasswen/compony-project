@@ -1,0 +1,388 @@
+.products-content-MA .products-content-summary-MA .products-summary-MA h1
+{
+    font-size: 35px;
+    color: #07a8f0;
+    margin-bottom: 8px;
+}
+.products-content-MA-marketing .products-content-MA-tabs-item
+{
+    width: 270px;
+    height:190px;
+    border: 0px;
+    border-radius: 8px;
+    margin-right: 26px;
+    background-color:#e2f5fd;   
+}
+.products-content-MA-marketing 
+{
+    width: 1200px;
+    margin: 0 auto 120px;
+    text-align: center;
+}
+.products-content-MA-marketing .products-content-MA-tabs-item h2
+{
+    color: #2d2e32;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 22px;
+    font-weight: normal;
+}
+ .products-content-MA-tabs .products-content-MA-tabs-item p
+    {
+        width: 94%;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #656565;
+    }
+.products-content-MA-content {
+    width: 100%;
+    /* height: 740px; */
+    background-color: #e2f5fc;
+}
+
+.products-content-MA-content  .products-content-MA-content-function
+{   
+    width:1200px;
+    margin:0 auto 120px;
+    text-align: center;
+}
+.products-content-MA-content-function  .products-content-MA-function-header
+,.products-content-MA-content-usecase .products-content-MA-content-usecase-title
+{   
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .products-content-MA-function-header .products-content-MA-function-header-tab 
+{
+    padding-bottom: 22px;
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+
+.products-content-MA-content-function .line 
+{
+    width: 66px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #0eadff;
+    margin: 0 auto;
+}
+.products-content-MA-content .products-MA-function-manage-item
+{
+    width: 270px;
+    height: auto;
+    border: 0px;
+    border-radius: 8px;
+    margin:0 26px 0 0;
+
+} 
+.products-content-MA-content .products-MA-function-manage-item.firstline{
+    margin-bottom:364px;
+}
+
+.products-content-MA-content .products-MA-function-manage-item .iconfont
+{
+    font-size: 56px;
+}
+.products-content-MA-content .products-MA-function-manage-item h2
+{
+    font-family:PingFangSC-Regular;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: #333333;
+}
+.products-MA-function-manage-item-mouseenter
+,.products-MA-function-manage-item.mouseenter h2
+,.products-MA-function-manage-detailed-item.mouseenter h2
+{
+    color:#08a8f0;
+}
+.products-MA-function-manage-item .h2-mouseover{
+    font-family:PingFangSC-Regular;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: #08a8f0;
+}
+/* 各项管理详细内容 */
+.products-content-MA-content-function-manage .products-MA-function-manage-item-box{
+    position: absolute;
+    display: flex;
+    width:100%;
+    height:284px;
+    left:0px;
+    margin-top:12px;
+    align-items: center;
+    justify-content:center;
+    background-color:#C4C4C4;
+}
+
+.products-MA-function-manage-item-box .products-MA-function-manage-item-detailed
+{
+    display: flex;
+    width:1200px;
+    height: 284px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content:center; */
+}
+.products-MA-function-manage-item-detailed .products-MA-function-manage-detailed-item
+{
+    width: 270px;
+    height: auto;
+    border: 0px;
+    border-radius: 8px;
+    margin:40px 30px 40px 0;
+}
+
+.products-MA-function-manage-detailed-item h2
+{
+    font-family:PingFangSC-Lingt;
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: #282e33;
+}
+
+.products-MA-function-manage-detailed-item .h2-mouseover
+{
+    font-family:PingFangSC-Light;
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: #08a8f0;
+}
+/* 使用场景 */
+.products-content-MA-content-usecase .products-content-MA-content-usecase-title div
+{
+    font-size:35px;
+    padding-bottom: 22px;
+}
+.products-content-MA-content-usecase .line
+{
+    width: 66px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #0eadff;
+    margin: 0 auto 150px;
+}
+
+.products-content-MA-content-usecase-title-background
+{
+    height: 500px;
+    background-image: url('../images/MA数据底纹.png');
+}
+.products-content-MA-content-usecase-title-imgs{
+    display:flex; 
+    width:1200px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0 auto;
+}
+.products-content-MA-content-usecase-title-item
+{
+    position: relative;
+    margin: 0 26px 0 0;
+    height: 354px;
+    width: 276px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30pX #dce4ef;
+}
+.products-content-MA-content-usecase-title-item:last-child
+{
+    margin-right: 0px;
+}
+.products-content-MA-content-usecase-title-item .usecase-title-img
+{
+    height: 240px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-image: url("../images/solution.png");
+    transition:all 0.6s;
+}
+
+.products-content-MA-content-usecase-title-item .usecase-title-Iconfont{
+    display: flex;
+    position: relative;
+    top:-76px;
+    justify-content: center; 
+    align-items: center;
+    z-index:101;
+}
+.products-content-MA-content-usecase-title-item .usecase-title-Iconfont img
+{
+    width:115px;
+    /* filter: drop-shadow(0 0 25px red) ; */
+
+}
+.products-content-MA-content-usecase-title-item .usecase-title-Iconfont .iconfont {
+    position: absolute;
+    font-family: "iconfont" !important;
+    font-size: 48px;
+    font-style: normal;
+    color: #45bdf4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.products-content-MA-content-usecase-title-item .usecase-title-text-heading{
+    font-family: PingFangSC-Light;
+    font-size: 15px;
+    color: #7f8387;;
+    margin-top:72px
+
+}
+.usecase-title-text
+{
+    position: absolute;
+    bottom:2px;
+    text-align: center;
+    height: 128px;
+    width:277px;
+    z-index:100;
+    border-radius: 0 0 20px 20px;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.usecase-title-text .line
+{
+    display: none;
+    width:201px;
+    height:2px;
+    margin:15px auto 20px;
+    border-radius: 2px;
+    background-color: #eee;
+    transition:all 0.6s
+}
+ .usecase-title-text .usecase-title-text-content
+ {
+    display: none;
+    margin:0 30px;
+    transition:all 0.6s;
+    font-family: PingFangSC-Light;
+    font-size: 10px;
+    color: #282e33;
+    transition: all 0.6s;
+}
+.products-content-MA-content-usecase-title-item:hover>.usecase-title-img
+{
+    height:0;
+    filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;
+}
+.products-content-MA-content-usecase-title-item:hover>.usecase-title-text
+{
+    height: 363px;
+    border-radius:20px;
+}
+.products-content-MA-content-usecase-title-item:hover>.usecase-title-text .usecase-title-text-content
+{
+    display: block;
+}
+.products-content-MA-content-usecase-title-item:hover>.usecase-title-text .line
+{
+    display: block;
+}
+
+
+/* 产品TM */
+.products-content-TM-content-usecase-title-background
+{
+    height: 400px;
+    background-image: url('../images/TM数据底纹.png');
+}
+.products-content-MA-content-function.products-content-TM
+{
+    width: 1200px;
+    margin: 0 auto 270px;
+}
+.products-content-MA-content-usecase-title-item.products-content-TM{
+    bottom: 112px;
+} 
+.products-content-MA-tabs-item.products-content-TM p
+{
+    width: 87%;
+}
+.products-content-MA-tabs-item.products-content-TM{
+    height: 235px;
+}
+.usecase-title-text-content.products-content-TM
+{
+    margin:0 60px;
+}
+.usecase-title-text-content.products-content-TM div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom:22px; 
+}
+.usecase-title-text-content.products-content-TM div i{
+    margin-right: 16px;
+    font-size: 18px;
+}
+.usecase-title-text-content.products-content-TM div p{
+    margin: 0;
+}
+
+
+/* 产品WA */
+.products-content-MA-content-usecase-title-item.products-content-WA
+{
+    top:68px;
+    width: 364px;
+    height:354px;
+    margin: 0 37px 0 0;
+}
+.products-content-MA-content-usecase-title-item.products-content-WA:last-child
+{
+    margin-right: 0px
+}
+.products-content-MA-content-usecase-title-imgs.products-content-WA {
+    padding-bottom: 210px;
+}
+.usecase-title-text.products-content-WA{
+    width:364px;
+}
+.usecase-title-text-content.products-content-WA
+{
+    margin: 0 30px;
+}.usecase-title-text-content.products-content-WA div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom:22px; 
+}
+.usecase-title-text-content.products-content-WA div i{
+    margin-right: 16px;
+    font-size: 18px;
+}
+.usecase-title-text-content.products-content-WA div p{
+    margin: 0;
+    text-align: left;
+}
+.usecase-title-Iconfont.products-content-WA img
+{
+    width:115px;
+}
+.usecase-title-text-heading.products-content-WA
+{
+    margin-top: 60px;
+    font-size: 17px;
+}
+.products-content-MA-marketing.products-content-WA
+{
+    margin: 0 auto 100px;
+}
+.usecase-title-img.products-content-WA
+{
+    height: 224px;
+}
+
